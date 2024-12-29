@@ -10,3 +10,19 @@ img {
   display: block;
 }
 /*************** Reset *********************/
+
+/* ---------BODY--------- */
+body {
+  background-color: F4F4F4;
+}
+
+/* ---------FONTE--------- */
+@font-face {
+  font-family: hero;
+  src: url("font/gerbil-webfont.woff2");
+}
+
+h1 {
+  font-family: hero;
+  color: #232323;
+}
