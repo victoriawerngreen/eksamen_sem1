@@ -24,5 +24,28 @@ body {
 
 h1 {
   font-family: hero;
+  text-transform: uppercase;
   color: #232323;
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-family: "Afacad Flux", serif;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #232323;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Afacad Flux", serif;
+  font-weight: regular;
+  color: #232323;
+}
+
+a {
+  font-family: "Afacad Flux", serif;
+  font-weight: regular;
+  text-decoration: none;
+  color: #d62424;
 }
