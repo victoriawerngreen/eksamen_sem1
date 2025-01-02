@@ -26,6 +26,28 @@
   rotate: -20deg;
 }
 
+h1 {
+  text-align: center;
+}
+
+/* ----------OM VICTORIA----------*/
+.grid-1_1 {
+  padding: 50px;
+}
+.grid-1_1 img {
+  height: 500px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-1_1 p {
+  padding-bottom: 40px;
+}
+
 @media (min-width: 800px) {
-  /* website styling */
+  .grid-1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
