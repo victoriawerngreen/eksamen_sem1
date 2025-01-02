@@ -49,3 +49,8 @@ a {
   text-decoration: none;
   color: #d62424;
 }
+
+/* ---------FOOTER--------- */
+footer {
+  text-align: center;
+}
