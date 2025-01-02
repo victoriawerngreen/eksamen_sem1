@@ -54,3 +54,13 @@ a {
 footer {
   text-align: center;
 }
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(img/hi-fi\ 02_EMNESITE.svg);
+  background-size: cover;
+}

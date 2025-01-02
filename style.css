@@ -51,3 +51,12 @@ h1 {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* ----------TEMA 2----------*/
+.tema_boks {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 160px;
+  margin-bottom: 50px;
+}
