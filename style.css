@@ -34,6 +34,12 @@ h1 {
 .grid-1_1 {
   padding: 50px;
 }
+
+.grid-1_1-flex {
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
 .grid-1_1 img {
   height: 500px;
   width: auto;
@@ -46,7 +52,8 @@ h1 {
 }
 
 @media (min-width: 800px) {
-  .grid-1_1 {
+  .grid-1_1,
+  .grid-1_1-flex {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -54,9 +61,11 @@ h1 {
 
 /* ----------TEMA 2----------*/
 .tema_boks {
-  background-color: white;
+  width: 320px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
   border-radius: 10px;
   padding: 20px;
-  margin-right: 160px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
