@@ -81,20 +81,52 @@ h1 {
 }
 
 .knap_2 {
-  width: 120px;
+  width: 150px;
   height: 30px;
   background-color: rgba(192, 182, 240, 0.6);
   border: rgba(192, 182, 240) solid 1.5px;
   border-radius: 10px;
   margin: auto;
   margin-top: 25px;
-  padding-top: 3px;
+  padding-top: 7px;
+  font-family: Gerbil;
+  color: #232323;
 }
 .knap_3 {
+  width: 150px;
+  height: 30px;
+  background-color: rgba(239, 167, 179, 0.6);
+  border: rgba(239, 167, 179) solid 1.5px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 7px;
+  font-family: Gerbil;
+  color: #232323;
 }
 .knap_4 {
+  width: 150px;
+  height: 30px;
+  background-color: rgba(245, 185, 123, 0.6);
+  border: rgba(245, 185, 123) solid 1.5px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 7px;
+  font-family: Gerbil;
+  color: #232323;
 }
 .knap_5 {
+  width: 150px;
+  height: 30px;
+  background-color: rgba(163, 209, 218, 0.6);
+  border: rgba(163, 209, 218) solid 1.5px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 7px;
+  font-family: Gerbil;
+  color: #232323;
 }
 
 /* ----------TEMA 2----------*/
