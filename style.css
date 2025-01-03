@@ -182,6 +182,19 @@ h2 {
   padding-bottom: 10px;
 }
 
+.gallery-1_1,
+.gallery-1_1_1,
+.grid-1 {
+  padding: 30px;
+}
+@media (min-width: 800px) {
+  .gallery-1_1,
+  .gallery-1_1_1,
+  .grid-1 {
+    padding: none;
+  }
+}
+
 /* ----------TEMA 2----------*/
 .intro-text2 {
   padding: 10px;
@@ -195,8 +208,8 @@ h2 {
 
 .laering2 {
   padding: 10px;
-  width: 400px;
-  height: 190px;
+  width: 480px;
+  height: 170px;
   background-color: rgba(255, 255, 255, 0.6);
   border: white solid 1px;
   border-radius: 10px;
@@ -212,6 +225,16 @@ h2 {
 }
 
 /* ----------TEMA 3----------*/
+
+.laering3 {
+  padding: 10px;
+  width: 480px;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
 
 /* ----------TEMA 4----------*/
 
