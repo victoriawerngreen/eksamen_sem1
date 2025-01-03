@@ -160,8 +160,13 @@ h2 {
   text-align: center;
 }
 
-.intro_center .knap_2 {
+.knap_2,
+.knap_3,
+.knap_4,
+.knap_5 {
+  display: grid;
   text-align: center;
+  justify-content: center;
 }
 @media (min-width: 800px) {
   .intro_center h1 {
