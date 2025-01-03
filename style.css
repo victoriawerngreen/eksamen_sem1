@@ -159,6 +159,10 @@ h1 {
 h2 {
   text-align: center;
 }
+
+.intro_center .knap_2 {
+  text-align: center;
+}
 @media (min-width: 800px) {
   .intro_center h1 {
     text-align: left;
