@@ -55,6 +55,8 @@ footer {
   text-align: center;
 }
 
+/* ---------KROP--------- */
+
 main {
   max-width: 1200px;
   margin: 0 auto;
@@ -63,4 +65,9 @@ main {
 body {
   background-image: url(img/hi-fi\ 02_EMNESITE.svg);
   background-size: cover;
+}
+
+/* ---------IMG--------- */
+img {
+  border-radius: 10px;
 }

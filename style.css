@@ -33,16 +33,12 @@ h1 {
 /* ----------OM VICTORIA----------*/
 .grid-1_1 {
   padding: 50px;
-}
-
-.grid-1_1-flex {
-  padding: 50px;
-  justify-content: center;
-  align-items: center;
+  gap: 25px;
   display: grid;
 }
+
 .grid-1_1 img {
-  height: 500px;
+  height: 400px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
@@ -50,6 +46,16 @@ h1 {
 
 .grid-1_1 p {
   padding-bottom: 40px;
+}
+
+.tekst-m-bg {
+  padding: 10px;
+  width: 400px;
+  height: 490px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
 }
 
 @media (min-width: 800px) {
@@ -60,6 +66,18 @@ h1 {
     justify-content: center;
     align-content: center;
   }
+  .grid-1_1 img {
+    height: 500px;
+  }
+}
+
+/* ----------PROJEKTER----------*/
+
+.grid-1_1-flex {
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
 }
 
 /* ----------TEMA 2----------*/
