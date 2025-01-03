@@ -154,10 +154,18 @@ h1 {
 .citat {
   text-align: center;
   padding-top: 10px;
+  font-size: 1.2rem;
 }
-
-.intro_center h2 {
-  text-align: right;
+h2 {
+  text-align: center;
+}
+@media (min-width: 800px) {
+  .intro_center h1 {
+    text-align: left;
+  }
+  .intro_center h2 {
+    text-align: right;
+  }
 }
 
 /* ----------TEMA 2----------*/
