@@ -177,7 +177,39 @@ h2 {
   }
 }
 
+.h2-tema {
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
 /* ----------TEMA 2----------*/
+.intro-text2 {
+  padding: 10px;
+  width: 400px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.laering2 {
+  padding: 10px;
+  width: 400px;
+  height: 190px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+/* newbie */
+@media (min-width: 800px) {
+  .gallery-1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+}
 
 /* ----------TEMA 3----------*/
 
