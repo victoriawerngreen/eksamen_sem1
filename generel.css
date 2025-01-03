@@ -29,6 +29,24 @@ h1 {
   font-size: 4.5rem;
 }
 
+/* media q for at sørge for teskten ikke bliver for stor, når skærmen bliver mindre */
+@media (max-width: 870px) {
+  .h1-mindre {
+    font-size: 3.7rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .h1-mindre {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 620px) {
+  .h1-mindre {
+    font-size: 2.7rem;
+  }
+}
+
 h2 {
   font-family: "Afacad Flux", serif;
   font-style: normal;

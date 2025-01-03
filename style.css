@@ -135,7 +135,6 @@ h1 {
   color: #232323;
 }
 
-/* ----------TEMA 2----------*/
 .tema_boks {
   width: 320px;
   height: 150px;
@@ -153,3 +152,5 @@ h1 {
 .tema_boks a {
   display: block; /* du har sat display block på fordi den ligger inde i en .tema_boks, som du har sat til at centrere hele mulevitten, så for at undgå den hopper op i midten sætter vi block på!*/
 }
+
+/* ----------TEMA 2----------*/
