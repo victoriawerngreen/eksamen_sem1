@@ -72,6 +72,12 @@ h1 {
 }
 
 /* ----------PROJEKTER----------*/
+/* .... og udforsk knapperne til tema siderne....*/
+
+#main_projekter {
+  background-image: url(img/projekter_bg.svg);
+  background-size: cover;
+}
 
 .grid-1_1-flex {
   padding: 50px;
