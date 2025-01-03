@@ -80,6 +80,23 @@ h1 {
   display: grid;
 }
 
+.knap_2 {
+  width: 120px;
+  height: 30px;
+  background-color: rgba(192, 182, 240, 0.6);
+  border: rgba(192, 182, 240) solid 1.5px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 3px;
+}
+.knap_3 {
+}
+.knap_4 {
+}
+.knap_5 {
+}
+
 /* ----------TEMA 2----------*/
 .tema_boks {
   width: 320px;
@@ -96,6 +113,5 @@ h1 {
 }
 
 .tema_boks a {
-  padding-top: 35px;
   display: block; /* du har sat display block på fordi den ligger inde i en .tema_boks, som du har sat til at centrere hele mulevitten, så for at undgå den hopper op i midten sætter vi block på!*/
 }
