@@ -241,26 +241,6 @@ h2 {
   }
 }
 
-.kommentar_tekst {
-  padding: 10px;
-  width: 480px;
-  height: 180px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
-}
-
-.loesning2 {
-  padding: 10px;
-  width: 480px;
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
-}
-
 .laering2 {
   padding: 10px;
   width: 480px;
@@ -293,39 +273,13 @@ h2 {
   margin: auto;
 }
 
-.figma_tekst {
-  padding: 10px;
-  width: 480px;
-  height: 130px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
-}
-
 .grid-1 img {
   margin-bottom: 10px;
   border: solid white 1px;
 }
 
-.aesthetics_tekst {
-  padding: 10px;
-  width: 480px;
-  height: 150px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
-}
-
-.prototype_tekst {
-  padding: 10px;
-  width: 480px;
-  height: 290px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
+.gallery-1_1 img {
+  margin-bottom: 10px;
 }
 
 /* nedstående er løsning der skal være i 3x1fr i desktop */
@@ -335,16 +289,6 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
   }
-}
-
-.loesning3 {
-  padding: 10px;
-  width: 480px;
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
 }
 
 .laering3 {
