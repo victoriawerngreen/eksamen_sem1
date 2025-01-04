@@ -197,6 +197,9 @@ h2 {
 .grid-1 {
   padding-left: 30px;
   padding-right: 30px;
+  display: grid;
+  justify-content: center;
+  margin: auto;
 }
 @media (min-width: 800px) {
   .gallery-1_1,
@@ -258,7 +261,7 @@ h2 {
 .laering2 {
   padding: 10px;
   width: 480px;
-  height: 250px;
+  height: 210px;
   background-color: rgba(255, 255, 255, 0.6);
   border: white solid 1px;
   border-radius: 10px;
@@ -299,6 +302,7 @@ h2 {
 
 .grid-1 img {
   margin-bottom: 10px;
+  border: solid white 1px;
 }
 
 .aesthetics_tekst {
@@ -311,7 +315,26 @@ h2 {
   margin: auto;
 }
 
-.laering3 {
+.prototype_tekst {
+  padding: 10px;
+  width: 480px;
+  height: 290px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* løsning i 3 */
+
+@media (min-width: 800px) {
+  .gallery-1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+  }
+}
+´ .laering3 {
   padding: 10px;
   width: 480px;
   height: 155px;
