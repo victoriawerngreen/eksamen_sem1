@@ -46,13 +46,13 @@ h1 {
 }
 
 .grid-1_1 p {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .tekst-m-bg {
   padding: 10px;
   width: 440px;
-  height: 650px;
+  height: 610px;
   background-color: rgba(255, 255, 255, 0.6);
   border: white solid 1px;
   border-radius: 10px;
@@ -170,12 +170,14 @@ h2 {
 
 .knap_2,
 .knap_3,
+.knap_3b,
 .knap_4,
 .knap_5 {
   display: grid;
   text-align: center;
   justify-content: center;
 }
+
 @media (min-width: 800px) {
   .intro_center h1 {
     text-align: left;
@@ -207,7 +209,7 @@ h2 {
 /* ----------TEMA 2----------*/
 .intro-text2 {
   padding: 10px;
-  width: 400px;
+  width: 430px;
   height: 130px;
   background-color: rgba(255, 255, 255, 0.6);
   border: white solid 1px;
@@ -263,11 +265,56 @@ h2 {
   margin: auto;
 }
 /* ----------TEMA 3----------*/
+.knap_3b {
+  width: 250px;
+  height: 30px;
+  background-color: rgba(239, 167, 179, 0.6);
+  border: rgba(239, 167, 179) solid 1.5px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 7px;
+  font-family: Gerbil;
+}
+
+.intro-text3 {
+  padding: 10px;
+  width: 430px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.figma_tekst {
+  padding: 10px;
+  width: 480px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.grid-1 img {
+  margin-bottom: 10px;
+}
+
+.aesthetics_tekst {
+  padding: 10px;
+  width: 480px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
 
 .laering3 {
   padding: 10px;
   width: 480px;
-  height: 110px;
+  height: 155px;
   background-color: rgba(255, 255, 255, 0.6);
   border: white solid 1px;
   border-radius: 10px;
