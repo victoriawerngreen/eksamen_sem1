@@ -151,7 +151,7 @@ h1 {
   display: block; /* du har sat display block på fordi den ligger inde i en .tema_boks, som du har sat til at centrere hele mulevitten, så for at undgå den hopper op i midten sætter vi block på!*/
 }
 
-/* ----------TEMAER INTRO_CENTER----------*/
+/* ----------TEMAER GENEREL----------*/
 .citat {
   text-align: center;
   padding-top: 10px;
@@ -173,7 +173,8 @@ h2 {
 .knap_3b,
 .knap_4,
 .knap_4b,
-.knap_5 {
+.knap_5,
+.knap_5b {
   display: grid;
   text-align: center;
   justify-content: center;
@@ -210,6 +211,16 @@ h2 {
   }
 }
 
+.tekst_bg {
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
 /* ----------TEMA 2----------*/
 .intro-text2 {
   padding: 10px;
@@ -228,15 +239,6 @@ h2 {
     grid-template-columns: 1fr 1fr;
     gap: 25px;
   }
-}
-.newbie_tekst {
-  padding: 10px;
-  width: 480px;
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
 }
 
 .kommentar_tekst {
@@ -429,3 +431,35 @@ h2 {
 }
 
 /* ----------TEMA 5----------*/
+.knap_5b {
+  width: 250px;
+  height: 30px;
+  background-color: rgba(163, 209, 218, 0.6);
+  border: rgba(163, 209, 218) solid 1.5px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 7px;
+  font-family: Gerbil;
+}
+.intro-text5 {
+  padding: 10px;
+  width: 430px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* media q, fordi de 3 k*/
+
+.laering5 {
+  padding: 10px;
+  width: 430px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
