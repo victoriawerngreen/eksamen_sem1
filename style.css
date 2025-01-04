@@ -248,7 +248,7 @@ h2 {
   margin: auto;
 }
 
-.loesning {
+.loesning2 {
   padding: 10px;
   width: 480px;
   height: 100px;
@@ -325,8 +325,7 @@ h2 {
   margin: auto;
 }
 
-/* løsning i 3 */
-
+/* nedstående er løsning der skal være i 3x1fr i desktop */
 @media (min-width: 800px) {
   .gallery-1_1_1 {
     display: grid;
@@ -334,7 +333,18 @@ h2 {
     gap: 25px;
   }
 }
-´ .laering3 {
+
+.loesning3 {
+  padding: 10px;
+  width: 480px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.laering3 {
   padding: 10px;
   width: 480px;
   height: 155px;
