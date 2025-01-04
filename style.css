@@ -59,7 +59,7 @@ h1 {
   margin: auto;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .grid-1_1,
   .grid-1_1-flex {
     display: grid;
@@ -180,7 +180,7 @@ h2 {
   justify-content: center;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .intro_center h1 {
     text-align: left;
   }
@@ -203,7 +203,7 @@ h2 {
   justify-content: center;
   margin: auto;
 }
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .gallery-1_1,
   .gallery-1_1_1,
   .grid-1 {
@@ -221,6 +221,20 @@ h2 {
   margin: auto;
 }
 
+.laering {
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+  /* flex gør at jeg kan vælge at ligge det i toppen/starten af flex-boksen */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 /* ----------TEMA 2----------*/
 .intro-text2 {
   padding: 10px;
@@ -233,7 +247,7 @@ h2 {
 }
 
 /* newbie */
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .gallery-1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -283,7 +297,7 @@ h2 {
 }
 
 /* nedstående er løsning der skal være i 3x1fr i desktop */
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .gallery-1_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -293,8 +307,8 @@ h2 {
 
 .laering3 {
   padding: 10px;
-  width: 480px;
-  height: 155px;
+  width: auto;
+  height: auto;
   background-color: rgba(255, 255, 255, 0.6);
   border: white solid 1px;
   border-radius: 10px;
@@ -324,16 +338,6 @@ h2 {
   margin: auto;
 }
 
-.laering4 {
-  padding: 10px;
-  width: 430px;
-  height: 260px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
-}
-
 /* ----------TEMA 5----------*/
 .knap_5b {
   width: 250px;
@@ -355,8 +359,6 @@ h2 {
   border-radius: 10px;
   margin: auto;
 }
-
-/* media q, fordi de 3 k*/
 
 .laering5 {
   padding: 10px;
