@@ -161,6 +161,13 @@ h2 {
   text-align: center;
 }
 
+.projekt_box img {
+  aspect-ratio: 16/9;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
 .knap_2,
 .knap_3,
 .knap_4,
@@ -186,7 +193,8 @@ h2 {
 .gallery-1_1,
 .gallery-1_1_1,
 .grid-1 {
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 @media (min-width: 800px) {
   .gallery-1_1,
@@ -200,6 +208,44 @@ h2 {
 .intro-text2 {
   padding: 10px;
   width: 400px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* newbie */
+@media (min-width: 800px) {
+  .gallery-1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+}
+.newbie_tekst {
+  padding: 10px;
+  width: 480px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.kommentar_tekst {
+  padding: 10px;
+  width: 480px;
+  height: 180px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.loesning {
+  padding: 10px;
+  width: 480px;
   height: 100px;
   background-color: rgba(255, 255, 255, 0.6);
   border: white solid 1px;
@@ -210,21 +256,12 @@ h2 {
 .laering2 {
   padding: 10px;
   width: 480px;
-  height: 170px;
+  height: 250px;
   background-color: rgba(255, 255, 255, 0.6);
   border: white solid 1px;
   border-radius: 10px;
   margin: auto;
 }
-/* newbie */
-@media (min-width: 800px) {
-  .gallery-1_1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-  }
-}
-
 /* ----------TEMA 3----------*/
 
 .laering3 {
