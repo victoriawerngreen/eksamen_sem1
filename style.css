@@ -59,7 +59,7 @@ h1 {
   margin: auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .grid-1_1,
   .grid-1_1-flex {
     display: grid;
@@ -172,13 +172,14 @@ h2 {
 .knap_3,
 .knap_3b,
 .knap_4,
+.knap_4b,
 .knap_5 {
   display: grid;
   text-align: center;
   justify-content: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .intro_center h1 {
     text-align: left;
   }
@@ -201,7 +202,7 @@ h2 {
   justify-content: center;
   margin: auto;
 }
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .gallery-1_1,
   .gallery-1_1_1,
   .grid-1 {
@@ -221,7 +222,7 @@ h2 {
 }
 
 /* newbie */
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .gallery-1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -326,7 +327,7 @@ h2 {
 }
 
 /* nedstående er løsning der skal være i 3x1fr i desktop */
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .gallery-1_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -355,5 +356,46 @@ h2 {
 }
 
 /* ----------TEMA 4----------*/
+.knap_4b {
+  width: 180px;
+  height: 30px;
+  background-color: rgba(245, 185, 123, 0.6);
+  border: rgba(245, 185, 123) solid 1.5px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 7px;
+  font-family: Gerbil;
+}
+
+.intro-text4 {
+  padding: 10px;
+  width: 430px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.moodboard_tekst {
+  padding: 10px;
+  width: 430px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.aktivitetsdiagram_tekst {
+  padding: 10px;
+  width: 430px;
+  height: 270px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+}
 
 /* ----------TEMA 5----------*/
