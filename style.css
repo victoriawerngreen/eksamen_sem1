@@ -252,6 +252,9 @@ h2 {
   border-radius: 10px;
   margin: auto;
 }
+.laering p {
+  padding-bottom: 10px;
+}
 
 .intro-text {
   padding: 10px;
