@@ -31,28 +31,27 @@ h1 {
 }
 
 /* ----------OM VICTORIA----------*/
-.grid-1_1 {
+
+.grid-1_1_forside {
   padding: 50px;
   gap: 25px;
   display: grid;
 }
 
-.grid-1_1 img {
+.grid-1_1_forside img {
   height: 400px;
   width: auto;
-  /* margin-left: auto;
-  margin-right: auto; */
   margin: auto;
 }
 
-.grid-1_1 p {
-  padding-bottom: 30px;
+.grid-1_1_forside p {
+  padding-bottom: 15px;
 }
 
 .tekst-m-bg {
   padding: 10px;
   width: 440px;
-  height: 610px;
+  height: auto;
   background-color: rgba(255, 255, 255, 0.6);
   border: white solid 1px;
   border-radius: 10px;
@@ -61,13 +60,18 @@ h1 {
 
 @media (min-width: 800px) {
   .grid-1_1,
-  .grid-1_1-flex {
+  .grid-1_1-flex,
+  .grid-1_1_forside {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-content: center;
   }
   .grid-1_1 img {
+    height: 500px;
+  }
+
+  .grid-1_1_forside img {
     height: 500px;
   }
 }
@@ -152,6 +156,19 @@ h1 {
 }
 
 /* ----------TEMAER GENEREL----------*/
+.grid-1_1 img {
+  height: 400px;
+  width: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+}
+.grid-1_1 {
+  padding: 50px;
+  gap: 25px;
+  display: grid;
+}
+
 .citat {
   text-align: center;
   padding-top: 10px;
@@ -161,6 +178,10 @@ h2 {
   text-align: center;
 }
 
+.intro_center {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .projekt_box img {
   aspect-ratio: 16/9;
   margin-bottom: 10px;
@@ -203,6 +224,7 @@ h2 {
   justify-content: center;
   margin: auto;
 }
+
 @media (min-width: 800px) {
   .gallery-1_1,
   .gallery-1_1_1,
@@ -224,27 +246,24 @@ h2 {
 .laering {
   padding: 10px;
   width: auto;
-  height: auto;
+  height: 100%;
   background-color: rgba(255, 255, 255, 0.6);
   border: white solid 1px;
   border-radius: 10px;
   margin: auto;
-  /* flex gør at jeg kan vælge at ligge det i toppen/starten af flex-boksen */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+}
+
+.intro-text {
+  padding: 10px;
+  width: auto;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
 }
 
 /* ----------TEMA 2----------*/
-.intro-text2 {
-  padding: 10px;
-  width: 430px;
-  height: 130px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
-}
 
 /* newbie */
 @media (min-width: 800px) {
@@ -255,15 +274,6 @@ h2 {
   }
 }
 
-.laering2 {
-  padding: 10px;
-  width: 480px;
-  height: 210px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
-}
 /* ----------TEMA 3----------*/
 .knap_3b {
   width: 250px;
@@ -275,16 +285,6 @@ h2 {
   margin-top: 25px;
   padding-top: 7px;
   font-family: Gerbil;
-}
-
-.intro-text3 {
-  padding: 10px;
-  width: 430px;
-  height: 130px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
 }
 
 .grid-1 img {
@@ -305,16 +305,6 @@ h2 {
   }
 }
 
-.laering3 {
-  padding: 10px;
-  width: auto;
-  height: auto;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
-}
-
 /* ----------TEMA 4----------*/
 .knap_4b {
   width: 180px;
@@ -328,16 +318,6 @@ h2 {
   font-family: Gerbil;
 }
 
-.intro-text4 {
-  padding: 10px;
-  width: 430px;
-  height: 130px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
-}
-
 /* ----------TEMA 5----------*/
 .knap_5b {
   width: 250px;
@@ -349,23 +329,4 @@ h2 {
   margin-top: 25px;
   padding-top: 7px;
   font-family: Gerbil;
-}
-.intro-text5 {
-  padding: 10px;
-  width: 430px;
-  height: 130px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
-}
-
-.laering5 {
-  padding: 10px;
-  width: 430px;
-  height: 240px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: white solid 1px;
-  border-radius: 10px;
-  margin: auto;
 }
