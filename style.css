@@ -38,6 +38,35 @@ h1 {
 
 /* ----------OM VICTORIA----------*/
 
+.red {
+  position: relative;
+}
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 108px;
+  transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+  fill: #232323;
+}
+
+.header_index a {
+  color: #f4f4f4;
+}
+
 .grid-1_1_forside {
   padding: 50px;
   gap: 25px;
