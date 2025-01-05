@@ -376,7 +376,7 @@ h2 {
 
 .info {
   text-align: center;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .grid-1_1_1 {
@@ -395,6 +395,8 @@ h2 {
   background-color: #a8d5c4;
   border-radius: 10px;
   padding: 10px;
+  display: grid;
+  align-items: center;
 }
 
 .program2 {
@@ -404,6 +406,8 @@ h2 {
   background-color: #efa7b3;
   border-radius: 10px;
   padding: 10px;
+  display: grid;
+  align-items: center;
 }
 .program3 {
   aspect-ratio: 1/1;
@@ -412,6 +416,8 @@ h2 {
   background-color: #a3d1da;
   border-radius: 10px;
   padding: 10px;
+  display: grid;
+  align-items: center;
 }
 .program4 {
   aspect-ratio: 1/1;
@@ -420,6 +426,8 @@ h2 {
   background-color: #c0b6f0;
   border-radius: 10px;
   padding: 10px;
+  display: grid;
+  align-items: center;
 }
 
 .program5 {
@@ -429,6 +437,8 @@ h2 {
   background-color: #f5b97b;
   border-radius: 10px;
   padding: 10px;
+  display: grid;
+  align-items: center;
 }
 .program6 {
   aspect-ratio: 1/1;
@@ -437,6 +447,8 @@ h2 {
   background-color: #a8d5c4;
   border-radius: 10px;
   padding: 10px;
+  display: grid;
+  align-items: center;
 }
 
 .program7 {
@@ -446,6 +458,8 @@ h2 {
   background-color: #efa7b3;
   border-radius: 10px;
   padding: 10px;
+  display: grid;
+  align-items: center;
 }
 .program8 {
   aspect-ratio: 1/1;
@@ -454,6 +468,8 @@ h2 {
   background-color: #a3d1da;
   border-radius: 10px;
   padding: 10px;
+  display: grid;
+  align-items: center;
 }
 .program9 {
   aspect-ratio: 1/1;
@@ -462,6 +478,8 @@ h2 {
   background-color: #c0b6f0;
   border-radius: 10px;
   padding: 10px;
+  display: grid;
+  align-items: center;
 }
 
 /* grøn #A8D5C4
