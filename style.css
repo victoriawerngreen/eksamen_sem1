@@ -5,26 +5,32 @@
   aspect-ratio: 5/4;
   text-align: center;
   justify-content: center;
-  padding-top: 70px;
+  padding-top: 40px;
   background-image: url(img/circle.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  /* object-fit: cover; */
+  object-fit: cover;
   background-position: center;
+  background-color: #f4f4f4;
+}
+@media (min-width: 800px) {
+  .hero {
+    aspect-ratio: 15/9;
+  }
 }
 
 .grid-1_2 {
   padding-top: 300px;
 }
 
-.circle {
+/* .circle {
   border-radius: 50%;
   width: 450px;
   height: 450px;
   background: linear-gradient(#a8d5c4 10%, #a3d1da 20%, #c0b6f0 40%, #efa7b3 60%, #f5b97b 80%);
   filter: blur(45px);
   rotate: -20deg;
-}
+} */
 
 h1 {
   text-align: center;
