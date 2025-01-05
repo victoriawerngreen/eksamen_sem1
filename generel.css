@@ -76,6 +76,11 @@ footer {
   padding-top: 80px;
   padding-bottom: 10px;
 }
+footer p {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 0.9rem;
+}
 
 /* ---------KROP--------- */
 
