@@ -388,98 +388,50 @@ h2 {
   margin: 40px;
 }
 
-.program1 {
-  aspect-ratio: 1/1;
-  width: 100%;
-  height: 100%;
-  background-color: #a8d5c4;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  align-items: center;
-}
-
-.program2 {
-  aspect-ratio: 1/1;
-  width: 100%;
-  height: 100%;
-  background-color: #efa7b3;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  align-items: center;
-}
-.program3 {
-  aspect-ratio: 1/1;
-  width: 100%;
-  height: 100%;
-  background-color: #a3d1da;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  align-items: center;
-}
-.program4 {
-  aspect-ratio: 1/1;
-  width: 100%;
-  height: 100%;
-  background-color: #c0b6f0;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  align-items: center;
-}
-
-.program5 {
-  aspect-ratio: 1/1;
-  width: 100%;
-  height: 100%;
-  background-color: #f5b97b;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  align-items: center;
-}
-.program6 {
-  aspect-ratio: 1/1;
-  width: 100%;
-  height: 100%;
-  background-color: #a8d5c4;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  align-items: center;
-}
-
-.program7 {
-  aspect-ratio: 1/1;
-  width: 100%;
-  height: 100%;
-  background-color: #efa7b3;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  align-items: center;
-}
-.program8 {
-  aspect-ratio: 1/1;
-  width: 100%;
-  height: 100%;
-  background-color: #a3d1da;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  align-items: center;
-}
+.program1,
+.program2,
+.program3,
+.program4,
+.program5,
+.program6,
+.program7,
+.program8,
 .program9 {
   aspect-ratio: 1/1;
   width: 100%;
   height: 100%;
-  background-color: #c0b6f0;
+  background-color: #a8d5c4;
   border-radius: 10px;
   padding: 10px;
   display: grid;
   align-items: center;
+}
+.program1 {
+  background-color: #a8d5c4;
+}
+.program2 {
+  background-color: #efa7b3;
+}
+.program3 {
+  background-color: #a3d1da;
+}
+.program4 {
+  background-color: #c0b6f0;
+}
+.program5 {
+  background-color: #f5b97b;
+}
+.program6 {
+  background-color: #a8d5c4;
+}
+.program7 {
+  background-color: #efa7b3;
+}
+.program8 {
+  background-color: #a3d1da;
+}
+.program9 {
+  background-color: #c0b6f0;
 }
 
 /* grøn #A8D5C4
