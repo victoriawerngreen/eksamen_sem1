@@ -27,6 +27,7 @@ h1 {
   text-transform: uppercase;
   color: #232323;
   font-size: 4.5rem;
+  padding-top: 40px;
 }
 
 /* media q for at sørge for teskten ikke bliver for stor, når skærmen bliver mindre */

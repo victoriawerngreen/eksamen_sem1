@@ -333,3 +333,51 @@ h2 {
   padding-top: 7px;
   font-family: Gerbil;
 }
+
+/* ----------CV----------*/
+
+@media (min-width: 800px) {
+  .grid-2_3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 90px;
+  }
+}
+.grid-2_3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.stalk_mig {
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media (min-width: 800px) {
+  .stalk_mig {
+    text-align: center;
+    padding-top: 50px;
+  }
+}
+
+.info_box {
+  padding: 10px;
+  padding-bottom: 15px;
+  width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.info_box p {
+  padding-bottom: 10px;
+}
+
+.info {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+
+.program1
