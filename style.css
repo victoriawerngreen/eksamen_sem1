@@ -225,6 +225,7 @@ h2 {
 }
 
 .knap_2,
+.knap_2b,
 .knap_3,
 .knap_3b,
 .knap_4,
@@ -310,6 +311,18 @@ h2 {
     grid-template-columns: 1fr 1fr;
     gap: 25px;
   }
+}
+
+.knap_2b {
+  width: 180px;
+  height: 30px;
+  background-color: rgba(192, 182, 240, 0.6);
+  border: rgba(192, 182, 240) solid 1.5px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 7px;
+  font-family: Gerbil;
 }
 
 /* ----------TEMA 3----------*/
