@@ -261,14 +261,6 @@ h2 {
   margin: auto;
 }
 
-@media (min-width: 800px) {
-  .gallery-1_1,
-  .gallery-1_1_1,
-  .grid-1 {
-    padding: none;
-  }
-}
-
 .tekst_bg {
   padding: 10px;
   width: auto;
