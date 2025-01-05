@@ -199,7 +199,7 @@ h1 {
   margin: auto;
 }
 .grid-1_1 {
-  padding: 50px;
+  padding: 25px;
   gap: 25px;
   display: grid;
 }
@@ -313,29 +313,29 @@ h2 {
   }
 }
 
-.knap_2b {
-  width: 180px;
+.knap_2b,
+.knap_3b,
+.knap_4b,
+.knap_5b {
   height: 30px;
-  background-color: rgba(192, 182, 240, 0.6);
-  border: rgba(192, 182, 240) solid 1.5px;
   border-radius: 10px;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 50px;
   padding-top: 7px;
   font-family: Gerbil;
+}
+
+.knap_2b {
+  width: 180px;
+  background-color: rgba(192, 182, 240, 0.6);
+  border: rgba(192, 182, 240) solid 1.5px;
 }
 
 /* ----------TEMA 3----------*/
 .knap_3b {
   width: 250px;
-  height: 30px;
   background-color: rgba(239, 167, 179, 0.6);
   border: rgba(239, 167, 179) solid 1.5px;
-  border-radius: 10px;
-  margin: auto;
-  margin-top: 25px;
-  padding-top: 7px;
-  font-family: Gerbil;
 }
 
 .grid-1 img {
@@ -359,27 +359,15 @@ h2 {
 /* ----------TEMA 4----------*/
 .knap_4b {
   width: 180px;
-  height: 30px;
   background-color: rgba(245, 185, 123, 0.6);
   border: rgba(245, 185, 123) solid 1.5px;
-  border-radius: 10px;
-  margin: auto;
-  margin-top: 25px;
-  padding-top: 7px;
-  font-family: Gerbil;
 }
 
 /* ----------TEMA 5----------*/
 .knap_5b {
   width: 250px;
-  height: 30px;
   background-color: rgba(163, 209, 218, 0.6);
   border: rgba(163, 209, 218) solid 1.5px;
-  border-radius: 10px;
-  margin: auto;
-  margin-top: 25px;
-  padding-top: 7px;
-  font-family: Gerbil;
 }
 
 /* ----------CV----------*/
