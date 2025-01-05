@@ -100,3 +100,8 @@ body {
 img {
   border-radius: 10px;
 }
+
+/* ---------HEADER--------- */
+header a {
+  font-family: Gerbil;
+}
