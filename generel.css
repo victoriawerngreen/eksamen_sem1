@@ -11,6 +11,11 @@ img {
 }
 /*************** Reset *********************/
 
+/* ---------LOGO--------- */
+.logo-pic {
+  width: 60px;
+}
+
 /* ---------BODY--------- */
 body {
   background-color: #f4f4f4;
@@ -203,10 +208,20 @@ nav {
 }
 
 .menu a:hover {
-  color: rgba(192, 182, 240);
+  color: rgb(152, 140, 212);
 }
 
 .menu {
   font-size: 1rem;
   color: rgb(101, 43, 117);
+}
+
+/* ---------HOVER KNAPPER-------- */
+.laes-mere:hover {
+  color: rgb(152, 140, 212);
+}
+
+.laes-mere {
+  display: inline-block;
+  font-size: 1.3rem;
 }

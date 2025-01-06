@@ -12,3 +12,5 @@ function menuClick() {
   burger.classList.remove("active");
   nav.classList.remove("active");
 }
+
+document.querySelector(".laes-mere").classList.add("puls");
