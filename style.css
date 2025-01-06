@@ -418,10 +418,6 @@ h2 {
 .grid-2_3 img {
   margin-bottom: 50px;
 }
-.stalk_mig {
-  text-align: center;
-  padding-top: 20px;
-}
 
 @media (min-width: 800px) {
   .stalk_mig {
