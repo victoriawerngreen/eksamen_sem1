@@ -135,7 +135,8 @@ h1 {
   margin: auto;
   margin-top: 25px;
   padding-top: 7px;
-  font-family: Gerbil;
+  /* font-family: Gerbil; */
+  font-family: hero;
 }
 
 .knap_2:hover {
@@ -151,7 +152,8 @@ h1 {
   margin: auto;
   margin-top: 25px;
   padding-top: 7px;
-  font-family: Gerbil;
+  /* font-family: Gerbil; */
+  font-family: hero;
 }
 
 .knap_3:hover {
@@ -167,7 +169,8 @@ h1 {
   margin: auto;
   margin-top: 25px;
   padding-top: 7px;
-  font-family: Gerbil;
+  /* font-family: Gerbil; */
+  font-family: hero;
 }
 
 .knap_4:hover {
@@ -183,7 +186,8 @@ h1 {
   margin: auto;
   margin-top: 25px;
   padding-top: 7px;
-  font-family: Gerbil;
+  /* font-family: Gerbil; */
+  font-family: hero;
 }
 
 .knap_5:hover {
@@ -333,7 +337,8 @@ h2 {
   margin: auto;
   margin-top: 50px;
   padding-top: 7px;
-  font-family: Gerbil;
+  /* font-family: Gerbil; */
+  font-family: hero;
   box-shadow: 2px 3px #232323;
   transition: 0.5s transform, 0.75s box-shadow;
 }

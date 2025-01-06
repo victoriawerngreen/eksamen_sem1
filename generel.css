@@ -204,7 +204,8 @@ nav {
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
-  font-family: Gerbil;
+  /* font-family: Gerbil; */
+  font-family: hero;
 }
 
 .menu a:hover {
