@@ -7,12 +7,89 @@
     <title>Forside</title>
 
     <!-- link til css -->
-    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="generel.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- link til google afacad font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Afacad:ital,wght@0,400..700;1,400..700&family=Dongle&family=Modak&family=Outfit:wght@100..900&family=Oxygen:wght@300;400;700&family=Prata&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+
+    <!-- her er mit favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logo.svg" />
   </head>
   <body>
-    <header></header>
+    <!-- herunder indsætter jeg min forside/hero -->
+    <section class="hero">
+      <h1 class="h1-mindre">Victoria Werngreens</h1>
 
-    <footer></footer>
+      <div class="grid-1_2">
+        <div>
+          <h2>kea_e24_1sem</h2>
+        </div>
+        <div>
+          <h1 class="h1-mindre">portfolio</h1>
+        </div>
+      </div>
+      <a href="#om" class="laes-mere">læs mere</a>
+    </section>
+
+    <!-- detter er id'et for anchorlinket, så det var hvor det skal høre ned til -->
+    <div id="om"></div>
+
+    <section class="red">
+      <!-- <header class="header_index">
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="projekter.html">Projekter</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+      </header> -->
+
+      <header class="frontpage">
+        <div class="logo">
+          <a href="index.html"><img class="logo-pic" width="195" height="195" src="img/logo.svg" alt="logo" /></a>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="projekter.html">Projekter</a></li>
+            <li><a href="cv.html">CV</a></li>
+          </ul>
+        </nav>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </header>
+    </section>
+    <main>
+      <h1 class="h1-mindre">om Victoria</h1>
+      <div class="grid-1_1_forside">
+        <img src="img/index-img.webp" alt="billede af victoria werngreen" width="380" height="450" />
+        <div class="tekst-m-bg">
+          <p>Mit navn er Victoria. Jeg er 23 år og lige nu studerer jeg på KEA for at blive multimediedesigner.</p>
+          <p>Dette er min portfolio fra 1. semester på MMD uddannelsen. På dette site kan du læse om min process og hvordan jeg har arbejdet med de forskellige opgaver vi er blevet kastet ud i og derudover se de færdige løsninger.</p>
+          <p>Udover at gå på KEA, så arbejder jeg også i en boghandel og i et smykkefirma, hvor jeg blandt andet er smykkemodel og skaber indhold til deres tiktok/instagram.</p>
+          <p>I min fritid er jeg booktoker - det vil sige jeg laver videoer og indhold på tiktok, der omhandler bøger.</p>
+          <p>Jeg elsker at rejse og håber denne uddannelse kan kombinere min kærlighed for at rejse og være kreativ.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Victoria Werngreen, 2025</p>
+      <!-- lav social media links om til ikoner -->
+      <div class="socials">
+        <p>
+          <a href="https://www.instagram.com/victoriawerngreen/">Instagram //</a>
+          <a href="https://www.tiktok.com/@victoriawerngreen/"> TikTok //</a>
+          <a href="https://www.linkedin.com/in/victoria-werngreen-0b510b327/">LinkedIn //</a>
+          viggomussen@gmail.com
+        </p>
+      </div>
+    </footer>
+    <script src="menu.js"></script>
   </body>
 </html>

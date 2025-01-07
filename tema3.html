@@ -4,15 +4,132 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <title>Forside</title>
+    <title>03_emnesite</title>
 
     <!-- link til css -->
-    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="generel.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- link til google afacad font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Afacad:ital,wght@0,400..700;1,400..700&family=Dongle&family=Modak&family=Outfit:wght@100..900&family=Oxygen:wght@300;400;700&family=Prata&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+
+    <!-- her er mit favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logo.svg" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img class="logo-pic" width="195" height="195" src="img/logo.svg" alt="logo" /></a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="projekter.html">Projekter</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </header>
 
-    <footer></footer>
+    <main>
+      <div class="intro_center">
+        <h1 class="h1-mindre">03_emnesite</h1>
+        <h2>grundlæggende UX/UI</h2>
+        <div class="citat">
+          <p>I dette tema skulle vi lære om grundlæggende UX/UI, hvordan vi dokmenterer vores process fra start til slut, hvordan vi laver research, teste og bruger vores resultater.</p>
+        </div>
+        <div class="grid-1_1">
+          <p class="intro-text">I dette emne lærte jeg mere i dybden, hvordan man bruger Figma og en masse flere funktioner såsom assets, prototype og at lave sine egne libraries med bla. fonte og farver.</p>
+          <p class="intro-text">Udover at dokumentere min process, lærte jeg også nye ting i CSS og jeg blev mere sikker i mine kodning-skills... i hvert fald i forhold til vores sidste tema.</p>
+        </div>
+        <a class="knap_3b" href="https://victoriawerngreen.dk/kea/03_ux/01_kodet_site/">se mit emnesite her</a>
+        <!-- indsæt ovenover link til hjemmeside -->
+      </div>
+
+      <!-- proces, læring og løsning -->
+
+      <h2 class="h2-tema">figma</h2>
+      <div class="grid-1">
+        <img src="img/figma.webp" alt="screenshot af mit figma board" width="793" height="451" />
+        <div class="gallery-1_1">
+          <p class="tekst_bg">Her kan mit Figma board fra mit emnesite ses. Det fungerer lidt som en kæmpe kollage. Her har jeg dokumenteret min proces, skrevet logbog, lavet styletiles og moodboards.</p>
+          <p class="tekst_bg">Jeg har fundet værdiord, lavet prototyper, layout diagrammer og wireframes. Her kan man også se de forskellige iterationer og ændringer jeg har lavet gennem min proces.</p>
+        </div>
+      </div>
+
+      <h2 class="h2-tema">aesthetics</h2>
+      <div class="gallery-1_1">
+        <div class="projekt_box">
+          <img src="img/moodboard-emnesite.webp" alt="moodboard at mit emnesite" width="400" height="260" />
+          <p class="tekst_bg">Efter at have lavet user stories, brugertyper og et brugermatrix lavede jeg mit et moodboard. Mit emnesite handler om fantasy boganbefalinger, så derfor var det vigtigt for mig at det skulle have et lidt magisk touch.</p>
+        </div>
+        <div class="projekt_box">
+          <img src="img/styletile-emnesite.webp" alt="styletile af mit emnesite" width="400" height="260" />
+          <p class="tekst_bg">Derefter lavede jeg flere forskellige styletiles og lavede likert tests på dem med mine forskellige værdiord: 'magisk', 'bookish' og 'clean'. Derefter kombinerede jeg dem ud fra resultatet og lavede mit endelige style tile, som kan ses her.</p>
+        </div>
+      </div>
+
+      <h2 class="h2-tema">prototype</h2>
+      <div class="gallery-1_1">
+        <div>
+          <img src="img/prototype.webp" alt="screenshot af prototype knapper fra figma" width="526" height="503" />
+        </div>
+        <div class="tekst_bg">
+          <p>Vi brugte i dette tema rigtig meget tid på at udvikle vores digitale prototype og lære at lave 'animationer' i Figma, så vi kunne få en ide om, hvordan vores endelige site ville komme til at se ud.</p>
+          <p>Det var nogle fede ting man kunne lave, men jeg synes det var lidt frustrerende, at jeg ikke kunne gøre dem alle til virkelighed med mine begynder-kodningsevner.</p>
+          <p>Men på billedet kan man se nogle af de knapper jeg lavede i min figma. Hvis man kørte musen over eller trykkede på dem, så skiftede de farve.</p>
+        </div>
+      </div>
+
+      <h2 class="h2-tema">løsning</h2>
+      <div class="gallery-1_1_1">
+        <div class="projekt_box">
+          <img src="img/forside_emnesite.webp" alt="forside af emnesite der handler om bøger" width="364" height="215" />
+          <p class="tekst_bg">Min forside er inspireret af en indholdsfortegnelse i en bog. Siden er på engelsk, derfor står der 'p' for page i stedet for 's' for side.</p>
+        </div>
+        <div class="projekt_box">
+          <img src="img/bogreol-emnesite.webp" alt="bogreol kodet på emnesite der handler om bøger" width="364" height="215" />
+          <p class="tekst_bg">Jeg har på en af mine sider lavet en 'bogreol' hvor jeg anbefaler mine favorit fantasybøger inden for 3 forskellige kategorier.</p>
+        </div>
+        <div class="projekt_box">
+          <img src="img/bog-emnesite.webp" alt="åbning af bogside på emnesite der handler om bøger" width="364" height="215" />
+          <p class="tekst_bg">Når man klikker ind på de forskellige bøger kommer der en side frem, hvor man kan læse om bogen og min anmeldelse af bogen.</p>
+        </div>
+      </div>
+
+      <a class="knap_3b" href="https://victoriawerngreen.dk/kea/03_ux/01_kodet_site/">se mit emnesite her</a>
+      <!-- indsæt ovenover link til hjemmeside -->
+
+      <h2 class="h2-tema">læring i dette forløb</h2>
+      <div class="grid-1_1">
+        <div class="laering">
+          <p>Jeg lærte en masse om at bruge Figma til at dokumentere min proces og at lave prototyper. Jeg lærte også hvor meget der skal til i planlægningen af en aesthetics ift udseende at et site.</p>
+          <p>Derudover har vi prøvet og lært om en masse forskellige teste som likert test, 5sec test, tænke-højt test mm.</p>
+        </div>
+        <div class="laering">
+          <p>I løbet af dette forløb kom jeg til at kode desktop først i stedet for mobilesite, så der lærte jeg også af mine fejl til fremtiden, at det er nemmere at kode mobilsite først og derefter desktop - ikke omvendt, selvom det føles mest logisk, når man sidder og koder på sin computer.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Victoria Werngreen, 2025</p>
+      <!-- lav social media links om til ikoner -->
+      <div class="socials">
+        <p>
+          <a href="https://www.instagram.com/victoriawerngreen/">Instagram //</a>
+          <a href="https://www.tiktok.com/@victoriawerngreen/"> TikTok //</a>
+          <a href="https://www.linkedin.com/in/victoria-werngreen-0b510b327/">LinkedIn //</a>
+          viggomussen@gmail.com
+        </p>
+      </div>
+    </footer>
+    <script src="menu.js"></script>
   </body>
 </html>

@@ -4,15 +4,132 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <title>Forside</title>
+    <title>04_animation</title>
 
     <!-- link til css -->
-    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="generel.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- link til google afacad font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Afacad:ital,wght@0,400..700;1,400..700&family=Dongle&family=Modak&family=Outfit:wght@100..900&family=Oxygen:wght@300;400;700&family=Prata&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+
+    <!-- her er mit favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logo.svg" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img class="logo-pic" width="195" height="195" src="img/logo.svg" alt="logo" /></a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="projekter.html">Projekter</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </header>
 
-    <footer></footer>
+    <main>
+      <div class="intro_center">
+        <h1 class="h1-mindre">04_animation</h1>
+        <h2>grundlæggende animation</h2>
+        <div class="citat">
+          <p>I dette tema skulle vi lære at lave et animeret spil ved brug af html, css og javascript.</p>
+          <p>Udover det skulle vi bruge Adobe Illustrator til at tegne vores spil og spilleelementer.</p>
+        </div>
+        <div class="grid-1_1">
+          <p class="intro-text">Dette var første gang vi skulle lære at animere ved brug af css og javascript. Udover det var det også første jeg prøvede at bruge Adobe Illustrator.</p>
+          <p class="intro-text">Jeg er selv vant til at tegne i Procreate på min iPad, men det var en helt ny oplevelse at skulle bruge pen-tool i Illustrator - det tog lidt tid at få styr på.</p>
+        </div>
+        <a class="knap_4b" href="https://victoriawerngreen.dk/kea/04_animation/website/index.html">se mit spil her</a>
+        <!-- indsæt ovenover link til hjemmeside -->
+      </div>
+
+      <!-- proces, læring og løsning -->
+
+      <h2 class="h2-tema">moodboard</h2>
+      <div class="gallery-1_1">
+        <div class="projekt_box">
+          <img src="img/moodboard1-spil.webp" alt="moodboard til spillet i animationsemnet" width="500" height="250" />
+          <p class="tekst_bg">Jeg startede med at at brainstorme ideer. Jeg blev inspireret af halloween, som var lige rundt om hjørnet og valgte at lave et spil med spøgelser.</p>
+        </div>
+        <div class="projekt_box">
+          <img src="img/moodboard2-spil.webp" alt="moodboard til spillet i animationsemnet" width="500" height="250" />
+          <p class="tekst_bg">Men jeg er mere til den søde side, så derfor blev det et spil med søde spøgelser og illustrationer, og ikke et særlig skræmmende spil.</p>
+        </div>
+      </div>
+
+      <h2 class="h2-tema">aktivitetsdiagram</h2>
+      <div class="gallery-1_1">
+        <div>
+          <img src="img/aktivitetsdiagram.webp" alt="mit aktivitetsdiagram til spillet i animationsemnet" width="383" height="514" />
+        </div>
+        <div class="tekst_bg">
+          <p>I dette tema lærte jeg også om aktivitetsdiagrammer og state machine diagrammer, som både gav os en ide om hvordan spillet skal fungere, men også gjorde det nemmere at kode javascript, da vi skulle begynde på det.</p>
+          <p>På billedet kan man se mit aktivitetsdiagram. Der kan man så læse/se, hvilke animationer jeg skal lave og hvordan de påvirker hinandne fx. ift point og liv.</p>
+        </div>
+      </div>
+
+      <h2 class="h2-tema">javascript</h2>
+      <div class="gallery-1_1">
+        <!-- husk at lave et eller andet med child skal bytte plads i desktop site -->
+        <div>
+          <img src="img/javascript-spil.webp" alt="screenshot af javascript kodning" width="510" height="433" />
+        </div>
+        <div class="tekst_bg">
+          <p>For at lave animationer i vores spil, så brugte vi CSS og især JavaScript. Jeg lærte bl.a. at tilføje og fjerne EventListeners og classes, give vores elementer animationer ved klik og at tilføje lydeffekter.</p>
+          <p>JavaScript var klart en udfordring, men jeg synes alligevel jeg fik kodet mig et (u)hyggeligt spil.</p>
+        </div>
+      </div>
+
+      <h2 class="h2-tema">løsning</h2>
+      <div class="gallery-1_1">
+        <div class="projekt_box">
+          <img src="img/forside-spil.svg" alt="forside til spillet free the forest" width="500" height="250" />
+          <p class="tekst_bg">Mit spil hedder 'free the forest'. På startsiden kan man læse reglerne og se hvordan point systemet fungerer.</p>
+        </div>
+        <div class="projekt_box">
+          <img src="img/spil-spil.webp" alt="screenshot af spillet free the forest" width="500" height="250" />
+          <p class="tekst_bg">Her er selve spillet. Der er onde og gode spøgelser, hvor det gælder om at klikke/fange på de onde.</p>
+        </div>
+      </div>
+
+      <a class="knap_4b" href="https://victoriawerngreen.dk/kea/04_animation/website/index.html">se mit spil her</a>
+      <!-- indsæt ovenover link til hjemmeside -->
+
+      <h2 class="h2-tema">læring i dette forløb</h2>
+      <div class="grid-1_1">
+        <div class="laering">
+          <p>Jeg lavede også en papirsprotoype og det var i dette forløb jeg blev introduceret til Adobe Illustrator. Begge de ting var nye og udfordrende på hver sin måde. Det jeg havde sværest ved var helt klart javascript!</p>
+          <p>Jeg synes det var svært at se logikken i det i starten og der var så mange 'regler' man skulle tage hensyn til.</p>
+        </div>
+        <div class="laering">
+          <p>Det gav heldigvis mere og mere mening jo mere jeg arbejde med det, men jeg tror aldrig jeg har haft så meget hovedpine som i løbet af dette tema.</p>
+          <p>Derfor var det alligevel en sjov oplevelse, og det er lidt sejt at sige, at man har kodet sit eget spil.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Victoria Werngreen, 2025</p>
+      <!-- lav social media links om til ikoner -->
+      <div class="socials">
+        <p>
+          <a href="https://www.instagram.com/victoriawerngreen/">Instagram //</a>
+          <a href="https://www.tiktok.com/@victoriawerngreen/"> TikTok //</a>
+          <a href="https://www.linkedin.com/in/victoria-werngreen-0b510b327/">LinkedIn //</a>
+          viggomussen@gmail.com
+        </p>
+      </div>
+    </footer>
+    <script src="menu.js"></script>
   </body>
 </html>
