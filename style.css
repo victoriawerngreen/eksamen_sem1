@@ -424,13 +424,6 @@ h2 {
   margin-bottom: 50px;
 }
 
-@media (min-width: 800px) {
-  .stalk_mig {
-    text-align: center;
-    padding-top: 50px;
-  }
-}
-
 .info_box {
   padding: 10px;
   padding-bottom: 15px;
@@ -451,13 +444,25 @@ h2 {
   padding-bottom: 50px;
 }
 
+@media (min-width: 800px) {
+  .grid-1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 .grid-1_1_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   padding-bottom: 20px;
   text-align: center;
   gap: 50px;
   margin: 30px 30px 30px 30px;
+}
+@media (min-width: 800px) {
+  .grid-1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .program1,
