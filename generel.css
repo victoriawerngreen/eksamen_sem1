@@ -160,7 +160,7 @@ img {
     display: block;
     background-color: #ffffff;
     position: absolute;
-    top: 1%; /* Placer menuen lige under hero */
+    top: 100%; /* Placer menuen lige under hero */
     left: 0;
     width: 100%;
     box-shadow: 0 10px 10px rgba(192, 182, 240);
@@ -172,7 +172,7 @@ img {
     display: block;
     background-color: #ffffff;
     position: absolute;
-    top: 0; /* Placer menuen øverst */
+    top: 73px; /* Placer menuen øverst */
     left: 0;
     width: 100%;
     box-shadow: 0 10px 10px rgba(192, 182, 240);
