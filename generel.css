@@ -144,7 +144,7 @@ img {
     transition: 0.2s linear;
   }
 
-  nav.active .menu {
+  /* nav.active .menu {
     display: block;
     background-color: #ffffff;
     position: absolute;
@@ -153,6 +153,35 @@ img {
     width: 100%;
     box-shadow: 0 10px 10px rgba(192, 182, 240);
     z-index: 1;
+  } */
+
+  /* --------MENU PÅ FORSIDEN SÅ DEN ER UNDER HERO-------- */
+  header.frontpage nav.active .menu {
+    display: block;
+    background-color: #ffffff;
+    position: absolute;
+    top: 1%; /* Placer menuen lige under hero */
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(192, 182, 240);
+    z-index: 10; /* Sørg for, at den vises over andet indhold */
+  }
+
+  /* --------MENU PÅ ANDRE SIDER DER IKKE PÅVIRKES AF NOGEN HERO-------- */
+  header:not(.frontpage) nav.active .menu {
+    display: block;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0; /* Placer menuen øverst */
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(192, 182, 240);
+    z-index: 10;
+  }
+
+  header {
+    position: relative;
+    /* understående sørger for at at menuen kan ses ift headeren */
   }
 
   nav.active .menu li {
@@ -204,7 +233,6 @@ nav {
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
-  /* font-family: Gerbil; */
   font-family: hero;
 }
 
