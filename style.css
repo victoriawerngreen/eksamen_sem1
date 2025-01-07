@@ -395,6 +395,13 @@ h2 {
   box-shadow: none;
 }
 
+#her-link {
+  font-weight: bolder;
+}
+
+#her-link:hover {
+  color: rgb(152, 140, 212);
+}
 /* ----------CV----------*/
 
 @media (min-width: 850px) {
