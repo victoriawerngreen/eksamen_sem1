@@ -113,10 +113,30 @@ h1 {
 .knap_2,
 .knap_3,
 .knap_4,
-.knap_5 {
+.knap_5,
+.knap_back {
   box-shadow: 2px 3px #232323;
   transition: 0.5s transform, 0.75s box-shadow;
 }
+
+.knap_back {
+  width: 150px;
+  height: 30px;
+  background-color: rgba(168, 213, 196, 0.6);
+  border: rgba(168, 213, 196) solid 1.5px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 17px;
+  padding-top: 2px;
+  /* font-family: Gerbil; */
+  font-family: hero;
+}
+
+.knap_back:hover {
+  transform: translateY(5%) translateX(5%);
+  box-shadow: none;
+}
+
 .knap_2 {
   width: 150px;
   height: 30px;
@@ -243,7 +263,8 @@ h2 {
 .knap_4,
 .knap_4b,
 .knap_5,
-.knap_5b {
+.knap_5b,
+.knap_back {
   display: grid;
   text-align: center;
   justify-content: center;
